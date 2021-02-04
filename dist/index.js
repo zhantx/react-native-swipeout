@@ -95,6 +95,7 @@ var SwipeoutBtn = (0, _createReactClass2.default)({
     return _react2.default.createElement(
       _NativeButton2.default,
       {
+        accessible: false,
         onPress: this.props.onPress,
         underlayColor: this.props.underlayColor,
         disabled: this.props.disabled,
